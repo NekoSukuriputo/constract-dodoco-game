@@ -10267,7 +10267,7 @@ window["cr_setSuspended"] = function(s)
 			this.is_else_block = (this.conditions[0].type == null && this.conditions[0].func == cr.system_object.prototype.cnds.Else);
 		}
 	};
-	window["_c2hh_"] = "E832A6CE0CFD95EDC42047C95CCB488A88F4D3A3";
+	window["_c2hh_"] = "7AE4085A44F53218B406A7B6531809B4361804D1";
 	EventBlock.prototype.postInit = function (hasElse/*, prevBlock_*/)
 	{
 		var i, len;
@@ -24142,8 +24142,8 @@ cr.behaviors.wrap = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
 	cr.plugins_.Keyboard,
-	cr.plugins_.Spritefont2,
 	cr.plugins_.TiledBg,
+	cr.plugins_.Spritefont2,
 	cr.plugins_.Touch,
 	cr.plugins_.Sprite,
 	cr.behaviors.solid,
@@ -24176,6 +24176,9 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio.prototype.acts.Stop,
 	cr.system_object.prototype.cnds.TriggerOnce,
 	cr.behaviors.Flash.prototype.acts.Flash,
+	cr.system_object.prototype.cnds.IsMobile,
+	cr.plugins_.Sprite.prototype.acts.SetOpacity,
+	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
 	cr.plugins_.Sprite.prototype.acts.SetMirrored,
 	cr.behaviors.Platform.prototype.acts.SimulateControl,
@@ -24188,7 +24191,6 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Sin.prototype.acts.SetActive,
 	cr.behaviors.Fade.prototype.acts.StartFade,
 	cr.behaviors.Platform.prototype.acts.SetVectorY,
-	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
 	cr.system_object.prototype.cnds.OnLayoutStart,

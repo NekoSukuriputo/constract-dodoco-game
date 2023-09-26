@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1633341292,
+	"version": 1695738522,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -52,6 +52,9 @@
 		"images/key-sheet0.png",
 		"images/dodocotitle-sheet0.png",
 		"images/key2-sheet0.png",
+		"images/leftarrow-sheet0.png",
+		"images/rigtharr-sheet0.png",
+		"images/uparr-sheet0.png",
 		"media/vo_ja_klee_elemental_skill_1_01.ogg",
 		"media/vo_ja_klee_fallen_01.ogg",
 		"media/vo_ja_klee_heavy_hit_taken_02.ogg",
